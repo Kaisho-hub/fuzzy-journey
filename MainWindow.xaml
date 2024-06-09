@@ -1,0 +1,33 @@
+﻿<Window x:Class="TicTacToe.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Tic-Tac-Toe" Height="500" Width="500">
+    <Grid Margin ="0,0,0,-6">
+
+        <Grid Margin="0,0,10,45">
+            <UniformGrid Rows="3" Columns="3" Name="BoardGrid" Margin="68,19,68,61">
+                <Button Name="Button00" Click="Button_Click" Height="100" Width="100"/>
+                <Button Name="Button10" Click="Button_Click" Height="100" Width="100"/>
+                <Button Name="Button20" Click="Button_Click" Height="100" Width="100"/>
+                <Button Name="Button01" Click="Button_Click" Height="100" Width="100"/>
+                <Button Name="Button11" Click="Button_Click" Height="100" Width="100"/>
+                <Button Name="Button21" Click="Button_Click" Height="100" Width="100"/>
+                <Button Name="Button02" Click="Button_Click" Height="100" Width="100"/>
+                <Button Name="Button12" Click="Button_Click" Height="100" Width="100"/>
+                <Button Name="Button22" Click="Button_Click" Height="100" Width="100" Margin="5,0,5,0"/>
+                <TextBlock Name="StatusText" HorizontalAlignment="Center" VerticalAlignment="Bottom" FontSize="16" Margin="0,0,0,50"/>
+            </UniformGrid>
+           
+
+
+        </Grid>
+        <Button Content="Back to Menu" HorizontalAlignment="Left" Margin="362,425,0,0" VerticalAlignment="Top" Width="128" Click="MenuBack_Click"/>
+
+        <Button Content="Next Level" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Height="30" Margin="195,400,0,0" Click="Reser_Click"/>
+
+
+
+    </Grid>
+
+
+</Window>
