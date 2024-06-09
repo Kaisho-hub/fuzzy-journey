@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "projekticekouje/1.0.0": {
+        "runtime": {
+          "projekticekouje.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "projekticekouje/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
